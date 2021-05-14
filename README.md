@@ -2,6 +2,8 @@
 
 MVC簡易登入  
 20210511 第一次上傳，先弄個簡易的登入，之後有空再把功能修一修  
+登入頁面 參考: https://codepen.io/colorlib/pen/rxddKy  
+
 
 創建帳號的table  
 USE [test]  
