@@ -118,7 +118,6 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
-
 </style>
 
 <div class="login-page">
@@ -131,8 +130,8 @@
             <p class="message">Already registered? <a href="#">登入</a></p>
         </form>
         <form class="login-form">
-            <input type="text" placeholder="帳號名字" id="userName"/>
-            <input type="password" placeholder="密碼" id="passWord"/>
+            <input type="text" placeholder="帳號名字" id="userName" />
+            <input type="password" placeholder="密碼" id="passWord" />
             <button onclick="Login()">登入</button>
             <p class="message">還沒有帳號? <a href="#">建立帳號</a></p>
         </form>
@@ -140,9 +139,9 @@
 </div>
 
 <script>
-//    $('.message a').click(function(){
-//   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
-//});
+    $('.message a').click(function () {
+        $('form').animate({ height: "toggle", opacity: "toggle" }, "slow");
+    });
 
 
     function Login() {
@@ -175,6 +174,6 @@
             }
         });
     }
-  
+
 
 </script>
